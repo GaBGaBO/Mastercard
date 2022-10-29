@@ -1,0 +1,179 @@
+*{
+  padding:0px;
+  margin:0px;
+  text-decoration:none;
+  outline:none;
+  box-sizing:border-box;
+}
+body{
+  display:flex;
+}
+h1{
+  position:absolute;
+  font-size:80px;
+  color:darkred;
+  left:496px;
+  top:50px;
+  font-family:'Courier New', Courier, monospace;
+  letter-spacing:5px;
+  text-shadow: 2px 2px #FF0000;
+}
+.credit{
+  cursor:pointer;
+  position:absolute;
+  left:500px;
+  top:200px;
+  width:500px;
+  height:300px;
+  background-color:gray;
+  border-radius:20px;
+  box-shadow:2px 15px 30px 15px #181818;
+}
+.credit:hover{
+  transform: rotate(180deg);
+  transition-delay:0,8s;
+}
+
+
+.creditinfo{
+  position:relative;
+}
+.creditimage .newyork2{
+  position:absolute;
+  width:500px;
+  height:300px;
+  border-radius:15px;
+}
+.detail{
+  position:relative;
+}
+.detail p{
+  position:absolute;
+  color:white;
+  font-weight:bold;
+  letter-spacing:1px;
+  font-family:'Courier New', Courier, monospace;
+  top:269px;
+  left:50px;
+  font-size:20px;
+  letter-spacing:3px;
+}
+.detail .number p{
+  position:absolute;
+  top:200px;
+  left:50px;
+  color:white;
+  font-weight:bold;
+}
+.detail .number .smlnmb{
+  position:absolute;
+  top:230px;
+  font-size:15px;
+  color:white;
+  font-weight:bold;
+}
+.detail .number .valid{
+  position:absolute;
+  top:230px;
+  left:124px;
+  color:white;
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:2px;
+}
+.detail .number .valid2{
+  position:absolute;
+  top:250px;
+  left:165px;
+  color:white;
+  font-weight:bold;
+  font-size:12px;
+  letter-spacing:2px;
+}
+.detail .number .thru{
+  position:absolute;
+  top:230px;
+  left:250px;
+  color:white;
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:2px;
+}
+.detail .number .thru2{
+  position:absolute;
+  top:250px;
+  left:280px;
+  color:white;
+  font-weight:bold;
+  font-size:12px;
+  letter-spacing:2px;
+}
+.cart{
+  position:relative;
+}
+
+.credit .cart .carta{
+  width:50px;
+  margin-top:110px;
+  margin-left:50px;
+  border-radius:10px;
+}
+.credit .cart .carta{
+  position:relative;
+  margin-top:100px;
+}
+.cart2{
+  position:relative;
+}
+.cart2 .lorem{
+  position:absolute;
+  width:120px;
+  height:50px;
+  border-radius:10px;
+  top:-120px;
+  left:50px;
+}
+.master{
+  position:relative;
+}
+.master .mastercard{
+  position:absolute;
+  width:50px;
+  top:95px;
+  right:25px;
+  border-radius:20px;
+}
+.master .text{
+  position:absolute;
+  top:130px;
+  right:13px;
+  color:white;
+  font-weight:bold;
+}
+.newtext{
+  position:relative
+}
+.newtext p{
+  writing-mode:vertical-lr;
+    color:white; 
+  /* font-weight:bold; */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top:-90px;
+  margin-left:5px;
+  font-size:15px;
+  letter-spacing:2px;
+}
+.waveing{
+  position:relative;
+}
+.waveing .wave{
+  position:absolute;
+  right:0px;
+  margin-top:-140px;
+  width:50px;
+  border-radius:100%;
+  transform:translateX(-25px);
+}
+
+
+
